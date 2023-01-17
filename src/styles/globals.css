@@ -17,10 +17,20 @@
 
 :root {
   --font-family: "FF Infra", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --page-width: 80rem;
+  --color-background: #FFD171;
+  --color-white: #F0F0F0; 
+  --color-black: #0F0F0F;
 }
 
 
 
 html, body {
-  font-family: var(--font-family) ;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
