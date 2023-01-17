@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'FF Infra';
+  src: url(/fonts/Infra-Light.woff2) format('truetype-variations');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'FF Infra';
+  src: url(/fonts/Infra-Medium.woff2) format('truetype-variations');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'FF Infra';
+  src: url(/fonts/Infra-Bold.woff2) format('truetype-variations');
+  font-weight: 600;
+}
+
+
+:root {
+  --font-family: "FF Infra", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+
+html, body {
+  font-family: var(--font-family) ;
+}
