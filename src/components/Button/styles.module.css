@@ -1,0 +1,20 @@
+.button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    background-color: var(--color-white);
+    font-size: 1.25rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    border: .125rem solid var(--color-black);
+    box-shadow: .25rem .25rem 0 0 var(--color-black);
+    transform: translate(0, 0);
+    transition: all .25s ease;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translate(.25rem, .25rem);
+    box-shadow: 0 0 0 0 var(--color-black);
+}
