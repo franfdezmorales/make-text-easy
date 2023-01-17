@@ -96,7 +96,9 @@ export default function Home() {
           <TextArea placeholder='lorem ipsum dolor sit amet, consectetur adipiscing elit' title={t('textToTransform')} value={state.textToTransform} setValue={handleChangeTextToTransform} />
           <TextArea placeholder='LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT' title={t('textTransformed')} value={state.textTransformed} readOnly />
         </section>
-        <Input title={t('instructions')} placeholder={t('instructionsPlaceholder')} value={state.instructions} setValue={handleChangeInstructions} />
+        <section className={styles.instructionsWrapper}>
+          <Input title={t('instructions')} placeholder={t('instructionsPlaceholder')} value={state.instructions} setValue={handleChangeInstructions} />
+        </section>
       </section>
       <section className={styles.buttonWrapper}>
         {loading ? 

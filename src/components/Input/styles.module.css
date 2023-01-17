@@ -12,3 +12,10 @@
     border: .125rem solid var(--color-black);
     box-shadow: .25rem .25rem 0 0 var(--color-black);
 }
+
+
+@media only screen and (max-width: 768px) { 
+    .input {
+        width: 18rem;
+    }
+}

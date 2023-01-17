@@ -29,3 +29,22 @@
     text-decoration: underline;
     text-underline-offset: .2rem;
 }
+
+@media only screen and (max-width: 768px) { 
+    .layout {
+        height: auto;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .user {
+        padding-right: 0;
+    }
+
+    .powered {
+        padding-left: 0;
+    }
+}

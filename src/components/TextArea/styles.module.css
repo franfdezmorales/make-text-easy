@@ -21,3 +21,10 @@
 .textArea::-webkit-scrollbar {
     display: none;
 }
+
+
+@media only screen and (max-width: 768px) { 
+    .textArea {
+        width: 18rem;
+    }
+}
