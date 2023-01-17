@@ -102,7 +102,7 @@ export default function Home() {
         {loading ? 
           <span className={styles.loading}>{t('loading')}</span> 
           : 
-          <Button onClick={handleTransformText}>
+          <Button disabled={state.instructions === '' || state.textToTransform === ''} onClick={handleTransformText}>
             {t('transformText')}
             <RightArrow />
           </Button>}

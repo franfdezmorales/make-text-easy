@@ -6,12 +6,13 @@ import type { ReactNode } from 'react'
 type ButtonProps = {
     onClick: () => void;
     children: ReactNode
+    disabled?: boolean;
 }
 
-const Button = ({ onClick, children }: ButtonProps): JSX.Element => {
+const Button = ({ onClick, children, disabled }: ButtonProps): JSX.Element => {
 
     return (
-        <button onClick={onClick} className={styles.button}>{children}</button>
+        <button disabled={disabled} onClick={onClick} className={styles.button}>{children}</button>
     )
 }
 
