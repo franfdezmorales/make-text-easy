@@ -1,0 +1,15 @@
+.layout { 
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-background);
+    font-family: var(--font-family);
+}
+
+.children {
+    padding: 2rem 0;
+    width: var(--page-width);
+    margin: 0 auto;
+}
