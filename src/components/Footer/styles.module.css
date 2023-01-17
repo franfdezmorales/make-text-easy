@@ -1,0 +1,31 @@
+.layout {
+    height: 3em;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.powered {
+    padding-left: 2rem;
+    font-weight: 200;
+}
+
+.user {
+    padding-right: 2rem;
+    font-weight: 200;
+}
+
+.link {
+    color: var(--color-white);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-underline-offset: .2rem;
+}
