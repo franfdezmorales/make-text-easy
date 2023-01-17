@@ -1,0 +1,12 @@
+{
+    "description": "Imagina poder modificar un texto con unas simples instrucciones, ahora lo puedes lograr.",
+    "textToTransform": "Texto para modificar", 
+    "textTransformed": "Texto modificado", 
+    "instructions": "Instrucciones",
+    "instructionsPlaceholder": "Convierte todas las letras en mayúsculas...",
+    "transformText": "Transformar texto",
+    "poweredBy": "Impulsado por",
+    "and": "y",
+    "madeWith": "Hecho con 🐢 por", 
+    "loading": "Modificando texto"
+}

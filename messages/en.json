@@ -1,0 +1,12 @@
+{
+    "description": "Imagine that you can modify a text with a few simple instructions, now you can achieve it.",
+    "textToTransform": "Text to transform", 
+    "textTransformed": "Text transformed", 
+    "instructions": "Instructions",
+    "instructionsPlaceholder": "Converts all letters to uppercase letters...",
+    "transformText": "Transform text",
+    "poweredBy": "Powered by",
+    "and": "and",
+    "madeWith": "Made with 🐢 by", 
+    "loading": "Transforming text"
+}
