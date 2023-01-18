@@ -30,7 +30,7 @@
     text-underline-offset: .2rem;
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 1370px) {
     .layout {
         height: auto;
         width: 100%; 

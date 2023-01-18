@@ -23,8 +23,12 @@
 }
 
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 1370px) {
+
+    .wrapper {
+        width: 100%;
+    }
     .textArea {
-        width: 18rem;
+        width: auto;
     }
 }

@@ -55,7 +55,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1370px) {
     .layout {
         display: flex;
         flex-direction: column;
@@ -68,18 +68,20 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 1.5rem;
     }
     
     .textAreaWrapper {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 1rem;
     }
 
     .instructionsWrapper {
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: center;
     }

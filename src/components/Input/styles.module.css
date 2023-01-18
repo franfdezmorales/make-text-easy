@@ -14,8 +14,11 @@
 }
 
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 1370px) {
+    .wrapper {
+        width: 100%;
+    }
     .input {
-        width: 18rem;
+        width: auto;
     }
 }
